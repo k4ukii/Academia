@@ -1,0 +1,61 @@
+.resultadoConsulta {
+    flex: 1;
+    margin-top: 20px; /* Espaçamento superior */
+    padding: 20px; /* Espaçamento interno */
+    background-color: #f9f9f9; /* Cor de fundo */
+    border-radius: 20px; /* Borda arredondada */
+    width: 200px;
+    height: 300px;
+    overflow: auto;
+}
+.resultadoConsulta2 {
+    flex: 1;
+    padding: 20px; 
+    background-color: #D1B001; 
+    border-radius: 20px; 
+    width: 200px;
+    height: 300px;
+    overflow: auto;
+    margin: 5px;
+    
+}
+
+
+.linha{
+    display: grid;
+    grid-template-columns:repeat(4, auto);
+    grid-template-rows:repeat(2, auto);
+    margin: 100px;
+    
+
+}
+body{
+    margin-left: 100px;
+    margin-right: 100px;
+   
+    background-color: rgba(0, 0, 0, 0.973); 
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f9f9f9;
+    
+}
+.organizar{
+
+    display: flex;
+    
+
+}
+
+.a1{
+  
+    font-size: 30px;
+    
+}
+.a2{
+    background-color: #D1B001;
+    font-size: 30px;
+   
+}
+.espaco{
+    padding: 20px;
+}

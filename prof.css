@@ -1,0 +1,101 @@
+.body{
+    margin: 0;
+    padding: 100px;
+    background: rgb(0,0,0);
+    background: linear-gradient(124deg, rgba(0,0,0,1) 50%, rgba(87,87,87,1) 91%);
+    min-height: 100vh; /* Garante que o elemento tenha pelo menos a altura da tela */
+   
+    overflow: hidden;
+    align-items: center;
+    text-align: justify;
+}
+.resultadoConsulta {
+    margin-top: 20px; /* Espaçamento superior */
+    padding: 20px; /* Espaçamento interno */
+    background-color: #f9f9f9; /* Cor de fundo */
+    border-radius: 20px; /* Borda arredondada */
+    width: 200px;
+    height: 300px;
+    overflow: auto;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px; /* Define o raio do arredondamento */
+    background-color: #D1B001; /* Cor de fundo do botão */
+    color: #ffffff; /* Cor do texto */
+  }
+  
+  /* Estilos para hover (opcional) */
+  .button:hover {
+    background-color: #D1B001; /* Mudança de cor ao passar o mouse */
+  }
+
+  .btalunos{
+   
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px; /* Define o raio do arredondamento */
+    background-color: #D1B001; /* Cor de fundo do botão */
+    color: #ffffff; /* Cor do texto */
+  }
+  input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #D1B001; /* Cor da borda */
+    border-radius: 5px; /* Bordas arredondadas */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    background-color: #fff; /* Cor de fundo do input */
+    color: #333; /* Cor do texto */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Transições suaves */
+}
+
+/* Estilo de hover para o input de texto */
+input[type="text"]:hover,
+input[type="text"]:focus {
+    border-color: #b39000; /* Cor da borda ao passar o mouse ou foco */
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2); /* Sombra mais intensa */
+}
+
+/* Estilo para o select */
+select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #D1B001; /* Cor da borda */
+    border-radius: 5px; /* Bordas arredondadas */
+    background-color: #fff; /* Cor de fundo do select */
+    color: #333; /* Cor do texto */
+    appearance: none; /* Remove a aparência padrão do sistema */
+    -webkit-appearance: none; /* Para navegadores baseados no WebKit (Safari, Chrome, etc.) */
+    -moz-appearance: none; /* Para navegadores baseados no Gecko (Firefox, etc.) */
+    cursor: pointer; /* Cursor do tipo ponteiro */
+    transition: border-color 0.3s ease; /* Transição suave da cor da borda */
+}
+
+/* Estilo para os option dentro do select */
+select option {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #fff; /* Cor de fundo do option */
+    color: #333; /* Cor do texto do option */
+}
+
+/* Estilo de hover para o select */
+select:hover,
+select:focus {
+    border-color: #b39000; /* Cor da borda ao passar o mouse ou foco */
+}
+.centro{
+   margin-left: 250px;
+}

@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+.triangle {
+    z-index: -1;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-left: 50px solid transparent; /* metade do lado esquerdo transparente */
+    border-right: 50px solid transparent; /* metade do lado direito transparente */
+    border-bottom: 100px solid #D1B001; /* base azul do triângulo */
+
+}
+.img1 {
+
+    width: 500px;
+    height: 500px;
+    opacity:70%;
+    padding-left: 30px;
+}
+
+
+body{
+    
+    background-color: black;
+
+
+    
+}
+.organizar{
+    display: flex;
+    align-items: center;
+    align-self: inherit;
+    padding: 20px;
+    padding-left: 20%;
+   
+}
+.a2{
+    font-family: 'lato';
+    color: white;
+    font-size: 40px;
+    font-weight: 200;
+}
+.a1{
+    font-family: 'lato';
+    color: white;
+    font-size: 20px;
+    font-weight: 200;
+}
+p{
+    font-family: 'lato';
+    color: white;
+    font-size: 15px; 
+    text-align: justify;
+    width:300px;
+}
+.org2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px;}

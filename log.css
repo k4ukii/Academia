@@ -1,0 +1,78 @@
+body{
+
+    background: rgba(0, 0, 0, 0.973); 
+    align-items: center;
+    text-align: center;
+    
+    }
+    
+    /* Estilo base */
+    .button {
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+        text-decoration: none;
+        cursor: pointer;
+        border-radius: 5px;
+        border: 2px solid #D1B001; /* Cor da borda */
+        color: #D1B001; /* Cor do texto */
+        background-color: transparent; /* Cor de fundo transparente */
+        transition: background-color 0.3s, color 0.3s; /* Transição suave */
+        margin: 10px;
+      }
+      
+      /* Estilo ao passar o mouse */
+      .button:hover {
+        background-color: #D1B001; /* Cor de fundo ao passar o mouse */
+        color: white; /* Cor do texto ao passar o mouse */
+      }
+      /* Estilo base */
+    input{
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 5px;
+        border: 2px solid #ccc; /* Cor da borda */
+        margin: 20px;
+      }
+      
+      /* Estilo ao focar */
+      input{
+        border-color: #D1B001; /* Cor da borda ao focar */
+        
+      }
+      .organizar{
+        margin-top: 230px;
+      }
+      .organizar1{
+        display:grid;
+        
+        grid-template-columns: repeat(4, 1fr); 
+        gap: 10px;}
+        
+        .bloco{
+          margin-top: 230px;
+            border-radius: 15px;
+            border: 2px solid #D1B001;
+         
+            width: 200px;
+            height: 350px;
+            font-family: 'lato';
+            color: white;
+           
+
+        }
+        .bloco:hover{
+          color: black;
+          background-color: #D1B001;
+        }
+      a{
+        padding: 20px;
+        font-family: 'Lato';
+        font-size: 20px;
+      }
+    p{
+      padding: 10px;
+    }
+    
